@@ -1,0 +1,33 @@
+.customers-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.customer-card {
+  width: 220px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fdf7fb;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  h3 {
+    margin: 0.75rem 0 0.5rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+}
+
+.nav-links a {
+  margin-right: 1rem;
+}
